@@ -1,2 +1,1 @@
-# KC-MPU-6050-Pico-Library
-MPU-6050 Pico Library
+Kim's MPU-6050 I2C Skeleton Code for Raspberry Pi for a personal project

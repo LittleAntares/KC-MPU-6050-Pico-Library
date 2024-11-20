@@ -7,7 +7,11 @@ include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 set(ProjectName kcmpu6050)
 
 # Create the project
-project(${ProjectName})
+project(${ProjectName} C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+
 
 # Initialize the Pico SDK
 pico_sdk_init()
